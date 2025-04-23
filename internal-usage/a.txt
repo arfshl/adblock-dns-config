@@ -1,6 +1,5 @@
-! AdGuardHome Personal User Rules - Modified 10042025
+! AdGuard Private DNS Personal User Rules - Modified 23042025
 
-userlocation.googleapis.com
 *xn--*.*
 *.onion.*
 bca-*.*
