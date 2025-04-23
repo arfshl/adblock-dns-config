@@ -1,0 +1,2287 @@
+{
+  "SelectedSortedByOnAllDomainsStatisticsScreen" : "MostBlocked",
+  "SelectedServer" : {
+    "value" : {
+      "id" : 13,
+      "providerId" : 10012,
+      "name" : "Cloudflare DNS (DNS-over-HTTPS)",
+      "type" : "doh",
+      "upstreams" : [ "https://dns.cloudflare.com/dns-query" ],
+      "parallelResolve" : false
+    }
+  },
+  "DnsDisabledUserRules" : [ ],
+  "DisabledAllowListRules" : "",
+  "VpnIncludeGateway" : true,
+  "DnsAllUserRules" : [ "20.43.161.151 duckduckgo.com" ],
+  "FallbackUpstreams" : [ "45.90.28.0:5353", "45.90.30.0:5353", "94.140.14.140:5353", "94.140.14.141:5353" ],
+  "Filters" : [ {
+    "meta" : {
+      "id" : 101,
+      "displayOrder" : 3,
+      "name" : "EasyList",
+      "description" : "EasyList is the primary subscription that removes adverts from web pages in English. Already included in AdGuard Base filter.",
+      "version" : "2.1.1.68",
+      "group" : "Ads",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylist.txt",
+      "homepage" : "https://github.com/easylist/easylist/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      } ],
+      "lastTimeDownloaded" : 1678885220000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 102,
+      "displayOrder" : 2,
+      "name" : "ABPindo",
+      "description" : "Additional filter list for websites in Indonesian.",
+      "version" : "2.0.7.64",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "homepage" : "https://github.com/ABPindo/indonesianadblockrules",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 29,
+        "keyword" : "lang:id"
+      } ],
+      "lastTimeDownloaded" : 1743496684000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_102.txt"
+  }, {
+    "meta" : {
+      "id" : 103,
+      "displayOrder" : 2,
+      "name" : "Bulgarian list",
+      "description" : "Additional filter list for websites in Bulgarian.",
+      "version" : "2.0.0.33",
+      "group" : "Language",
+      "subscriptionUrl" : "https://stanev.org/abp/adblock_bg.txt",
+      "homepage" : "https://github.com/RealEnder/adblockbg/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 30,
+        "keyword" : "lang:bg"
+      } ],
+      "lastTimeDownloaded" : 1655110834000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 104,
+      "displayOrder" : 2,
+      "name" : "EasyList China",
+      "description" : "Additional filter list for websites in Chinese. Already included in AdGuard Chinese filter.",
+      "version" : "2.1.21.17",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt",
+      "homepage" : "https://github.com/easylist/easylistchina",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 31,
+        "keyword" : "lang:zh"
+      } ],
+      "lastTimeDownloaded" : 1678885225000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 105,
+      "displayOrder" : 2,
+      "name" : "EasyList Czech and Slovak",
+      "description" : "Additional filter list for websites in Czech and Slovak.",
+      "version" : "2.0.2.33",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt",
+      "homepage" : "https://github.com/tomasko126/easylistczechandslovak",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 32,
+        "keyword" : "lang:cs"
+      }, {
+        "id" : 33,
+        "keyword" : "lang:sk"
+      } ],
+      "lastTimeDownloaded" : 1675890061000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 106,
+      "displayOrder" : 2,
+      "name" : "EasyList Dutch",
+      "description" : "Additional filter list for websites in Dutch. Already included in AdGuard Dutch filter.",
+      "version" : "2.1.24.65",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+      "homepage" : "https://github.com/easylist/easylistdutch/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 15,
+        "keyword" : "lang:nl"
+      } ],
+      "lastTimeDownloaded" : 1678885226000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 107,
+      "displayOrder" : 2,
+      "name" : "EasyList Germany",
+      "description" : "Additional filter list for websites in German. Already included in AdGuard German filter.",
+      "version" : "2.0.10.1",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist.to/easylistgermany/easylistgermany.txt",
+      "homepage" : "https://github.com/easylist/easylistgermany/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 12,
+        "keyword" : "lang:de"
+      } ],
+      "lastTimeDownloaded" : 1678827630000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 108,
+      "displayOrder" : 2,
+      "name" : "EasyList Hebrew",
+      "description" : "Additional filter list for websites in Hebrew.",
+      "version" : "2.0.4.7",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+      "homepage" : "https://github.com/easylist/EasyListHebrew",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 34,
+        "keyword" : "lang:he"
+      } ],
+      "lastTimeDownloaded" : 1677373234000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 109,
+      "displayOrder" : 2,
+      "name" : "EasyList Italy",
+      "description" : "Additional filter list for websites in Italian.",
+      "version" : "2.1.24.67",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
+      "homepage" : "https://github.com/easylist/easylistitaly/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 35,
+        "keyword" : "lang:it"
+      } ],
+      "lastTimeDownloaded" : 1678885230000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 110,
+      "displayOrder" : 2,
+      "name" : "EasyList Lithuania",
+      "description" : "Additional filter list for websites in Lithuanian.",
+      "version" : "2.0.2.46",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/EasyList-Lithuania/easylist_lithuania/master/easylistlithuania.txt",
+      "homepage" : "https://github.com/EasyList-Lithuania/easylist_lithuania",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 37,
+        "keyword" : "lang:lt"
+      } ],
+      "lastTimeDownloaded" : 1676163645000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 111,
+      "displayOrder" : 2,
+      "name" : "Latvian List",
+      "description" : "Additional filter list for websites in Latvian.",
+      "version" : "2.0.0.56",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/Latvian-List/adblock-latvian/master/lists/latvian-list.txt",
+      "homepage" : "https://github.com/Latvian-List/adblock-latvian",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 36,
+        "keyword" : "lang:lv"
+      } ],
+      "lastTimeDownloaded" : 1676034038000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 112,
+      "displayOrder" : 2,
+      "name" : "Liste AR",
+      "description" : "Additional filter list for websites in Arabic.",
+      "version" : "2.1.24.66",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
+      "homepage" : "https://github.com/easylist/listear",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 38,
+        "keyword" : "lang:ar"
+      } ],
+      "lastTimeDownloaded" : 1678885232000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_112.txt"
+  }, {
+    "meta" : {
+      "id" : 113,
+      "displayOrder" : 2,
+      "name" : "Liste FR",
+      "description" : "Additional filter list for websites in French. Already included in AdGuard French filter.",
+      "version" : "2.1.24.65",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/liste_fr.txt",
+      "homepage" : "https://github.com/easylist/listefr",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 27,
+        "keyword" : "lang:fr"
+      } ],
+      "lastTimeDownloaded" : 1678885234000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 114,
+      "displayOrder" : 2,
+      "name" : "ROList",
+      "description" : "Additional filter list for websites in Romanian.",
+      "version" : "2.0.1.10",
+      "group" : "Language",
+      "subscriptionUrl" : "https://www.zoso.ro/pages/rolist.txt",
+      "homepage" : "https://www.zoso.ro/rolist",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 39,
+        "keyword" : "lang:ro"
+      } ],
+      "lastTimeDownloaded" : 1678683634000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 118,
+      "displayOrder" : 2,
+      "name" : "EasyPrivacy",
+      "description" : "Privacy protection supplement for EasyList.",
+      "version" : "2.1.42.84",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://easylist.to/easylist/easyprivacy.txt",
+      "homepage" : "https://github.com/easylist/easylist/",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1745354145000,
+      "enabled" : true,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_118.txt"
+  }, {
+    "meta" : {
+      "id" : 119,
+      "displayOrder" : 2,
+      "name" : "Icelandic ABP List",
+      "description" : "Additional filter list for websites in Icelandic.",
+      "version" : "2.0.0.13",
+      "group" : "Language",
+      "subscriptionUrl" : "https://adblock.gardar.net/is.abp.txt",
+      "homepage" : "https://adblock.gardar.net/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 42,
+        "keyword" : "lang:is"
+      } ],
+      "lastTimeDownloaded" : 1669050048000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 120,
+      "displayOrder" : 2,
+      "name" : "AdBlockID",
+      "description" : "Additional filter list for websites in Indonesian.",
+      "version" : "2.0.23.52",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
+      "homepage" : "https://github.com/realodix/AdBlockID",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 29,
+        "keyword" : "lang:id"
+      } ],
+      "lastTimeDownloaded" : 1743366856000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_120.txt"
+  }, {
+    "meta" : {
+      "id" : 121,
+      "displayOrder" : 2,
+      "name" : "Greek AdBlock Filter",
+      "description" : "Additional filter list for websites in Greek.",
+      "version" : "2.0.0.81",
+      "group" : "Language",
+      "subscriptionUrl" : "https://www.void.gr/kargig/void-gr-filters.txt",
+      "homepage" : "https://github.com/kargig/greek-adblockplus-filter",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 44,
+        "keyword" : "lang:el"
+      } ],
+      "lastTimeDownloaded" : 1675688450000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 122,
+      "displayOrder" : 100,
+      "name" : "Fanboy's Annoyances",
+      "description" : "Removes in-page pop-ups and other annoyances. Includes Fanboy's Social Blocking & EasyList Cookie Lists.",
+      "version" : "2.1.1.93",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://secure.fanboy.co.nz/fanboy-annoyance_ubo.txt",
+      "homepage" : "https://github.com/easylist/easylist/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      } ],
+      "lastTimeDownloaded" : 1678885250000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 123,
+      "displayOrder" : 2,
+      "name" : "Fanboy's Social Blocking List",
+      "description" : "Hides and blocks social content, social widgets, social scripts and social icons. Already included in Fanboy's Annoyances list.",
+      "version" : "2.1.2.32",
+      "group" : "Social",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/fanboy-social.txt",
+      "homepage" : "https://github.com/easylist/easylist/",
+      "tags" : [ {
+        "id" : 3,
+        "keyword" : "purpose:social"
+      } ],
+      "lastTimeDownloaded" : 1678885252000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 202,
+      "displayOrder" : 2,
+      "name" : "EasyList Thailand",
+      "description" : "Filter that blocks ads on Thai sites.",
+      "version" : "2.0.0.9",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/easylist-thailand/easylist-thailand/master/subscription/easylist-thailand.txt",
+      "homepage" : "https://github.com/easylist-thailand/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 64,
+        "keyword" : "lang:th"
+      } ],
+      "lastTimeDownloaded" : 1668790871000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 203,
+      "displayOrder" : 2,
+      "name" : "Hungarian filter",
+      "description" : "Hufilter. Filter list that specifically removes ads on websites in the Hungarian language.",
+      "version" : "2.0.2.25",
+      "group" : "Language",
+      "subscriptionUrl" : "https://cdn.jsdelivr.net/gh/hufilter/hufilter@gh-pages/hufilter-adguard.txt",
+      "homepage" : "https://github.com/hufilter/hufilter/wiki",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 48,
+        "keyword" : "lang:hu"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678712472000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 204,
+      "displayOrder" : 4,
+      "name" : "Peter Lowe's Blocklist",
+      "description" : "Filter that blocks ads, trackers, and other nasty things.",
+      "version" : "2.0.11.6",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext",
+      "homepage" : "https://pgl.yoyo.org/adservers/",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1678496459000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 206,
+      "displayOrder" : 2,
+      "name" : "Xfiles",
+      "description" : "Italian adblock filter list.",
+      "version" : "2.0.1.58",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/gioxx/xfiles/master/filtri.txt",
+      "homepage" : "https://xfiles.noads.it/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 35,
+        "keyword" : "lang:it"
+      } ],
+      "lastTimeDownloaded" : 1677646860000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 207,
+      "displayOrder" : 3,
+      "name" : "Adblock Warning Removal List",
+      "description" : "Removes anti-adblock warnings and other obtrusive messages.",
+      "version" : "2.1.24.66",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+      "homepage" : "https://github.com/easylist/antiadblockfilters/",
+      "tags" : [ {
+        "id" : 50,
+        "keyword" : "purpose:antiadblock"
+      } ],
+      "lastTimeDownloaded" : 1678885261000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 208,
+      "displayOrder" : 1,
+      "name" : "Online Malicious URL Blocklist",
+      "description" : "Blocks domains that are known to be used to propagate malware and spyware.",
+      "version" : "2.1.1.10",
+      "group" : "Security",
+      "subscriptionUrl" : "https://urlhaus-filter.pages.dev/urlhaus-filter-ag-online.txt",
+      "homepage" : "https://gitlab.com/malware-filter/urlhaus-filter#malicious-url-blocklist",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      } ],
+      "lastTimeDownloaded" : 1743511487000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_208.txt"
+  }, {
+    "meta" : {
+      "id" : 212,
+      "displayOrder" : 2,
+      "name" : "RU AdList: Counters",
+      "description" : "RU AdList supplement for trackers blocking.",
+      "version" : "2.1.23.91",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/cntblock.txt",
+      "homepage" : "https://forums.lanik.us/viewforum.php?f=102",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 8,
+        "keyword" : "lang:ru"
+      } ],
+      "lastTimeDownloaded" : 1678885264000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 214,
+      "displayOrder" : 2,
+      "name" : "ABPVN List",
+      "description" : "Vietnamese adblock filter list.",
+      "version" : "2.0.20.78",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn_adguard.txt",
+      "homepage" : "https://abpvn.com/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 52,
+        "keyword" : "lang:vi"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678870865000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 216,
+      "displayOrder" : 2,
+      "name" : "Official Polish filters for AdBlock, uBlock Origin & AdGuard",
+      "description" : "Additional filter list for websites in Polish.",
+      "version" : "2.0.14.87",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt",
+      "homepage" : "https://github.com/MajkiIT/polish-ads-filter#polish-filters-for-adblock-ublock-origin--adguard",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1678726880000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 217,
+      "displayOrder" : 2,
+      "name" : "Polish GDPR-Cookies Filters",
+      "description" : "Polish filter list for cookies blocking.",
+      "version" : "2.0.4.90",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt",
+      "homepage" : "https://github.com/MajkiIT/polish-ads-filter#polish-filters-for-adblock-ublock-origin--adguard",
+      "tags" : [ {
+        "id" : 6,
+        "keyword" : "purpose:cookies"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1678726882000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 218,
+      "displayOrder" : 2,
+      "name" : "Estonian List",
+      "description" : "Filter for ad blocking on Estonian sites.",
+      "version" : "2.0.3.54",
+      "group" : "Language",
+      "subscriptionUrl" : "https://adblock.ee/list.txt",
+      "homepage" : "https://adblock.ee/",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 53,
+        "keyword" : "lang:et"
+      } ],
+      "lastTimeDownloaded" : 1677286880000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 220,
+      "displayOrder" : 2,
+      "name" : "CJX's Annoyances List",
+      "description" : "Supplement for EasyList China+EasyList and EasyPrivacy.",
+      "version" : "2.0.5.16",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+      "homepage" : "https://github.com/cjx82630/cjxlist/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 31,
+        "keyword" : "lang:zh"
+      } ],
+      "lastTimeDownloaded" : 1678280474000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 221,
+      "displayOrder" : 2,
+      "name" : "Polish Social Filters",
+      "description" : "Polish filter list for social widgets, popups, etc.",
+      "version" : "2.0.4.61",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt",
+      "homepage" : "https://github.com/MajkiIT/polish-ads-filter#polish-filters-for-adblock-ublock-origin--adguard",
+      "tags" : [ {
+        "id" : 3,
+        "keyword" : "purpose:social"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1678726887000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 225,
+      "displayOrder" : 4,
+      "name" : "Fanboy's Anti-Facebook List",
+      "description" : "Warning, it will break Facebook-based comments on some websites and may also break some Facebook apps or games.",
+      "version" : "2.0.2.10",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://www.fanboy.co.nz/fanboy-antifacebook.txt",
+      "homepage" : "https://www.fanboy.co.nz",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 45,
+        "keyword" : "problematic"
+      } ],
+      "lastTimeDownloaded" : 1678842074000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 227,
+      "displayOrder" : 2,
+      "name" : "List-KR",
+      "description" : "Filter that removes ads and various scripts from websites with Korean content. Combined and augmented with AdGuard-specific rules for enhanced filtering. This filter is expected to be used alongside with AdGuard Base filter.",
+      "version" : "2.0.13.75",
+      "group" : "Language",
+      "subscriptionUrl" : "https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filter-AdGuard.txt",
+      "homepage" : "https://list-kr.github.io/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 56,
+        "keyword" : "lang:ko"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678813280000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 228,
+      "displayOrder" : 2,
+      "name" : "xinggsf",
+      "description" : "Blocks ads on the Chinese video platforms (MangoTV, DouYu and others).",
+      "version" : "2.0.2.32",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+      "homepage" : "https://github.com/xinggsf/Adblock-Plus-Rule/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 31,
+        "keyword" : "lang:zh"
+      } ],
+      "lastTimeDownloaded" : 1678381279000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 231,
+      "displayOrder" : 2,
+      "name" : "EasyList Spanish",
+      "description" : "Additional filter list for websites in Spanish.",
+      "version" : "2.1.24.67",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
+      "homepage" : "https://github.com/easylist/easylistspanish",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 17,
+        "keyword" : "lang:es"
+      } ],
+      "lastTimeDownloaded" : 1678885352000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 232,
+      "displayOrder" : 2,
+      "name" : "KAD - Anti-Scam",
+      "description" : "Filter that protects against various types of scams in the Polish network, such as mass text messaging, fake online stores, etc.",
+      "version" : "2.0.39.54",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/FiltersHeroes/KAD/master/KAD.txt",
+      "homepage" : "https://github.com/FiltersHeroes/KAD",
+      "tags" : [ {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1678885359000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 233,
+      "displayOrder" : 2,
+      "name" : "Adblock List for Finland",
+      "description" : "Finnish ad blocking filter list.",
+      "version" : "2.0.9.60",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/finnish-easylist-addition/finnish-easylist-addition/gh-pages/Finland_adb.txt",
+      "homepage" : "https://github.com/finnish-easylist-addition/finnish-easylist-addition",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 40,
+        "keyword" : "lang:fi"
+      } ],
+      "lastTimeDownloaded" : 1678813293000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 234,
+      "displayOrder" : 2,
+      "name" : "ROLIST2",
+      "description" : "This is a complementary list for ROList with annoyances that are not necessarily banners. It is a very aggressive list and not recommended for beginners.",
+      "version" : "2.0.0.70",
+      "group" : "Language",
+      "subscriptionUrl" : "https://www.zoso.ro/pages/rolist2.txt",
+      "homepage" : "https://zoso.ro/rolist/",
+      "tags" : [ {
+        "id" : 45,
+        "keyword" : "problematic"
+      }, {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 39,
+        "keyword" : "lang:ro"
+      } ],
+      "lastTimeDownloaded" : 1674824506000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 235,
+      "displayOrder" : 2,
+      "name" : "Persian Blocker",
+      "description" : "Filter list for blocking ads and trackers on websites in Persian.",
+      "version" : "2.0.2.25",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlocker.txt",
+      "homepage" : "https://github.com/MasterKia/PersianBlocker/",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 54,
+        "keyword" : "lang:fa"
+      }, {
+        "id" : 69,
+        "keyword" : "lang:tg"
+      }, {
+        "id" : 70,
+        "keyword" : "lang:ps"
+      } ],
+      "lastTimeDownloaded" : 1678568497000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 236,
+      "displayOrder" : 2,
+      "name" : "road-block light",
+      "description" : "Romanian ad blocking filter subscription.",
+      "version" : "2.0.1.92",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters-light.txt",
+      "homepage" : "https://github.com/tcptomato/ROad-Block",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 39,
+        "keyword" : "lang:ro"
+      } ],
+      "lastTimeDownloaded" : 1678050106000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 237,
+      "displayOrder" : 2,
+      "name" : "Polish Annoyances Filters",
+      "description" : "Filter list that hides and blocks pop-ups, widgets, newsletters, push notifications, arrows, tagged internal links that are off-topic, and other irritating elements. Polish GDPR-Cookies Filters is already in it.",
+      "version" : "1.0.27.6",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt",
+      "homepage" : "https://polishannoyancefilters.netlify.app",
+      "tags" : [ {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      }, {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      } ],
+      "lastTimeDownloaded" : 1678856505000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 238,
+      "displayOrder" : 2,
+      "name" : "Polish Anti Adblock Filters",
+      "description" : "Official Polish filters against Adblock alerts.",
+      "version" : "2.0.3.52",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/olegwukr/polish-privacy-filters/master/anti-adblock.txt",
+      "homepage" : "https://github.com/olegwukr/polish-privacy-filters",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 50,
+        "keyword" : "purpose:antiadblock"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1656334923000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 239,
+      "displayOrder" : 5,
+      "name" : "Fanboy's Anti-thirdparty Fonts",
+      "description" : "A filter that blocks third-party fonts. It may break the look and design of some websites.",
+      "version" : "2.0.3.22",
+      "group" : "Other",
+      "subscriptionUrl" : "https://fanboy.co.nz/fanboy-antifonts.txt",
+      "homepage" : "https://www.fanboy.co.nz/",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 45,
+        "keyword" : "problematic"
+      } ],
+      "lastTimeDownloaded" : 1678798908000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 241,
+      "displayOrder" : 100,
+      "name" : "EasyList Cookie List",
+      "description" : "Removes cookie and privacy warnings. Already included in Fanboy's Annoyances list.",
+      "version" : "2.1.9.96",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://www.fanboy.co.nz/fanboy-cookiemonster.txt",
+      "homepage" : "https://github.com/easylist/easylist/",
+      "tags" : [ {
+        "id" : 6,
+        "keyword" : "purpose:cookies"
+      } ],
+      "lastTimeDownloaded" : 1678885371000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 243,
+      "displayOrder" : 2,
+      "name" : "Frellwit's Swedish Filter",
+      "description" : "Filter that aims to remove regional Swedish ads, tracking, social media, annoyances, sponsored articles etc.",
+      "version" : "2.0.15.39",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Filter.txt",
+      "homepage" : "https://github.com/lassekongo83/Frellwit-s-filter-lists",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 3,
+        "keyword" : "purpose:social"
+      }, {
+        "id" : 55,
+        "keyword" : "lang:sv"
+      } ],
+      "lastTimeDownloaded" : 1678870904000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 244,
+      "displayOrder" : 2,
+      "name" : "YousList",
+      "description" : "Filter that blocks ads on Korean sites.",
+      "version" : "2.0.9.31",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt",
+      "homepage" : "https://github.com/yous/YousList/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 56,
+        "keyword" : "lang:ko"
+      } ],
+      "lastTimeDownloaded" : 1678640511000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 246,
+      "displayOrder" : 2,
+      "name" : "EasyList Polish",
+      "description" : "Additional filter list for websites in Polish.",
+      "version" : "2.1.20.73",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylistpolish.txt",
+      "homepage" : "https://github.com/easylistpolish/easylistpolish/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      } ],
+      "lastTimeDownloaded" : 1678885375000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 247,
+      "displayOrder" : 2,
+      "name" : "Polish Anti-Annoying Special Supplement",
+      "description" : "Filters that block and hide RSS elements and remnants of hidden newsletters combined with social elements on Polish websites.",
+      "version" : "2.0.3.15",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/FiltersHeroes/PolishAntiAnnoyingSpecialSupplement/master/polish_rss_filters.txt",
+      "homepage" : "https://github.com/FiltersHeroes/PolishAntiAnnoyingSpecialSupplement/",
+      "tags" : [ {
+        "id" : 41,
+        "keyword" : "lang:pl"
+      }, {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      } ],
+      "lastTimeDownloaded" : 1678669309000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 249,
+      "displayOrder" : 249,
+      "name" : "Dandelion Sprout's Nordic Filters",
+      "description" : "This list covers websites for Norway, Denmark, Iceland, Danish territories, and the Sami indigenous population.",
+      "version" : "2.0.6.70",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuard.txt",
+      "homepage" : "https://github.com/DandelionSprout/adfilt",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      }, {
+        "id" : 43,
+        "keyword" : "lang:no"
+      }, {
+        "id" : 49,
+        "keyword" : "lang:da"
+      }, {
+        "id" : 42,
+        "keyword" : "lang:is"
+      }, {
+        "id" : 63,
+        "keyword" : "lang:fo"
+      } ],
+      "lastTimeDownloaded" : 1678726921000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 250,
+      "displayOrder" : 100,
+      "name" : "Dandelion Sprout's Annoyances List",
+      "description" : "This list is made in the style of AdGuard's and Fanboy's annoyances lists. It combines many of Dandelion Sprout's proudest and most frequently maintained international lists, as a curated compilation for simplicity's sake.",
+      "version" : "2.0.8.95",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList",
+      "homepage" : "https://github.com/DandelionSprout/adfilt",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      } ],
+      "lastTimeDownloaded" : 1678870914000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 251,
+      "displayOrder" : 2,
+      "name" : "Legitimate URL Shortener",
+      "description" : "Automatically removes unnecessary '$' and '&' values from URLs, making them easier to copy from the URL bar and pasting elsewhere as links. Already included in Dandelion Sprout's Annoyances List.",
+      "version" : "2.0.5.1",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
+      "homepage" : "https://github.com/DandelionSprout/adfilt",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1678870915000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 252,
+      "displayOrder" : 2,
+      "name" : "Dandelion Sprout's Serbo-Croatian List",
+      "description" : "A filter list for websites in Serbian, Montenegrin, Croatian, and Bosnian.",
+      "version" : "2.0.0.17",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/SerboCroatianList.txt",
+      "homepage" : "https://github.com/DandelionSprout/adfilt",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 65,
+        "keyword" : "lang:sr"
+      }, {
+        "id" : 66,
+        "keyword" : "lang:hr"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678323716000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 253,
+      "displayOrder" : 2,
+      "name" : "IndianList",
+      "description" : "Additional filter list for websites in Hindi, Tamil and other Dravidian and Indic languages.",
+      "version" : "2.0.17.98",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/indianlist.txt",
+      "homepage" : "https://github.com/mediumkreation/IndianList",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 67,
+        "keyword" : "lang:hi"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678885385000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 10,
+      "displayOrder" : 1,
+      "name" : "Filter unblocking search ads and self-promotion",
+      "description" : "Filter that unblocks search ads in Google, DuckDuckGo, Bing, or Yahoo and self-promotion on websites.",
+      "version" : "2.0.1.99",
+      "group" : "Other",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/10_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1677000616000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 11,
+      "displayOrder" : 2,
+      "name" : "AdGuard Mobile Ads filter",
+      "description" : "Filter for all known mobile ad networks. Useful for mobile devices.",
+      "version" : "2.0.59.50",
+      "group" : "Ads",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/11_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 19,
+        "keyword" : "platform:mobile"
+      } ],
+      "lastTimeDownloaded" : 1743513263000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_11.txt"
+  }, {
+    "meta" : {
+      "id" : 13,
+      "displayOrder" : 1,
+      "name" : "AdGuard Turkish filter",
+      "description" : "Filter list that specifically removes ads on websites in Turkish language.",
+      "version" : "2.0.42.12",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/13_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 24,
+        "keyword" : "lang:tr"
+      } ],
+      "lastTimeDownloaded" : 1678890625000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 14,
+      "displayOrder" : 1,
+      "name" : "AdGuard Annoyances filter",
+      "description" : "Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.",
+      "version" : "2.2.26.24",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/14_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      } ],
+      "lastTimeDownloaded" : 1743538093000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_14.txt"
+  }, {
+    "meta" : {
+      "id" : 15,
+      "displayOrder" : 3,
+      "name" : "AdGuard DNS filter",
+      "description" : "Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.",
+      "version" : "2.0.78.38",
+      "group" : "Other",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/15_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 45,
+        "keyword" : "problematic"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1743401386000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_15.txt"
+  }, {
+    "meta" : {
+      "id" : 16,
+      "displayOrder" : 1,
+      "name" : "AdGuard French filter",
+      "description" : "Liste FR + AdGuard French filter. Filter list that specifically removes ads on websites in French language.",
+      "version" : "2.0.37.79",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/16_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 27,
+        "keyword" : "lang:fr"
+      } ],
+      "lastTimeDownloaded" : 1678786246000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 17,
+      "displayOrder" : 1,
+      "name" : "AdGuard URL Tracking filter",
+      "description" : "Filter that enhances privacy by removing tracking parameters from URLs.",
+      "version" : "2.0.10.82",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/17_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1743509489000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_17.txt"
+  }, {
+    "meta" : {
+      "id" : 18,
+      "displayOrder" : 2,
+      "name" : "AdGuard Cookie Notices filter",
+      "description" : "Blocks cookie notices on web pages.",
+      "version" : "2.0.44.62",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/18_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1722850430000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_18.txt"
+  }, {
+    "meta" : {
+      "id" : 19,
+      "displayOrder" : 2,
+      "name" : "AdGuard Popups filter",
+      "description" : "Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.",
+      "version" : "2.0.40.91",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/19_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1722850432000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_19.txt"
+  }, {
+    "meta" : {
+      "id" : 1,
+      "displayOrder" : 1,
+      "name" : "AdGuard Russian filter",
+      "description" : "Filter that enables ad blocking on websites in Russian language.",
+      "version" : "2.0.78.88",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/1_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 8,
+        "keyword" : "lang:ru"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1678890685000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_1.txt"
+  }, {
+    "meta" : {
+      "id" : 20,
+      "displayOrder" : 2,
+      "name" : "AdGuard Mobile App Banners filter",
+      "description" : "Blocks irritating banners that promote mobile apps of websites.",
+      "version" : "2.0.15.69",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/20_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1722872024000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_20.txt"
+  }, {
+    "meta" : {
+      "id" : 21,
+      "displayOrder" : 2,
+      "name" : "AdGuard Other Annoyances filter",
+      "description" : "Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.",
+      "version" : "2.0.24.82",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/21_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1722875640000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_21.txt"
+  }, {
+    "meta" : {
+      "id" : 224,
+      "displayOrder" : 1,
+      "name" : "AdGuard Chinese filter",
+      "description" : "EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.",
+      "version" : "2.0.82.76",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/224_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 31,
+        "keyword" : "lang:zh"
+      } ],
+      "lastTimeDownloaded" : 1678879874000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 22,
+      "displayOrder" : 2,
+      "name" : "AdGuard Widgets filter",
+      "description" : "Blocks annoying third-party widgets: online assistants, live support chats, etc.",
+      "version" : "2.0.9.0",
+      "group" : "Annoyances",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/22_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 5,
+        "keyword" : "purpose:annoyances"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1722864831000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_22.txt"
+  }, {
+    "meta" : {
+      "id" : 2,
+      "displayOrder" : 1,
+      "name" : "AdGuard Base filter",
+      "description" : "EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.",
+      "version" : "2.3.77.50",
+      "group" : "Ads",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/2_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      } ],
+      "lastTimeDownloaded" : 1743530866000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_2.txt"
+  }, {
+    "meta" : {
+      "id" : 3,
+      "displayOrder" : 1,
+      "name" : "AdGuard Tracking Protection filter",
+      "description" : "The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.",
+      "version" : "2.0.83.66",
+      "group" : "Privacy",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/3_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1745352442000,
+      "enabled" : true,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_3.txt"
+  }, {
+    "meta" : {
+      "id" : 4,
+      "displayOrder" : 1,
+      "name" : "AdGuard Social Media filter",
+      "description" : "Filter for social media widgets such as 'Like' and 'Share' buttons and more.",
+      "version" : "2.1.12.94",
+      "group" : "Social",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/4_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 3,
+        "keyword" : "purpose:social"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1743538064000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_4.txt"
+  }, {
+    "meta" : {
+      "id" : 5,
+      "displayOrder" : 4,
+      "name" : "AdGuard Experimental filter",
+      "description" : "Filter designed to test certain hazardous filtering rules before they are added to the basic filters.",
+      "version" : "2.0.1.5",
+      "group" : "Other",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/5_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 45,
+        "keyword" : "problematic"
+      } ],
+      "lastTimeDownloaded" : 1676989984000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 6,
+      "displayOrder" : 1,
+      "name" : "AdGuard German filter",
+      "description" : "EasyList Germany + AdGuard German filter. Filter list that specifically removes ads on websites in German language.",
+      "version" : "2.0.33.21",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/6_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 12,
+        "keyword" : "lang:de"
+      } ],
+      "lastTimeDownloaded" : 1678818713000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 7,
+      "displayOrder" : 1,
+      "name" : "AdGuard Japanese filter",
+      "description" : "Filter that enables ad blocking on websites in Japanese language.",
+      "version" : "2.0.34.56",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/7_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 14,
+        "keyword" : "lang:ja"
+      } ],
+      "lastTimeDownloaded" : 1678890759000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 8,
+      "displayOrder" : 1,
+      "name" : "AdGuard Dutch filter",
+      "description" : "EasyList Dutch + AdGuard Dutch filter. Filter list that specifically removes ads on websites in Dutch language.",
+      "version" : "2.0.4.49",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/8_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 15,
+        "keyword" : "lang:nl"
+      } ],
+      "lastTimeDownloaded" : 1678793534000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 9,
+      "displayOrder" : 1,
+      "name" : "AdGuard Spanish/Portuguese filter",
+      "description" : "Filter list that specifically removes ads on websites in Spanish, Portuguese, and Brazilian Portuguese languages.",
+      "version" : "2.0.17.67",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/9_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 17,
+        "keyword" : "lang:es"
+      }, {
+        "id" : 18,
+        "keyword" : "lang:pt"
+      } ],
+      "lastTimeDownloaded" : 1678815137000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 23,
+      "displayOrder" : 1,
+      "name" : "AdGuard Ukrainian filter",
+      "description" : "Filter that enables ad blocking on websites in Ukrainian language.",
+      "version" : "2.0.2.32",
+      "group" : "Language",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/23_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 68,
+        "keyword" : "lang:uk"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      } ],
+      "lastTimeDownloaded" : 1689849077000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 124,
+      "displayOrder" : 2,
+      "name" : "EasyList Portuguese",
+      "description" : "Additional filter list for websites in Spanish and Portuguese.",
+      "version" : "2.0.3.54",
+      "group" : "Language",
+      "subscriptionUrl" : "https://easylist-downloads.adblockplus.org/easylistportuguese.txt",
+      "homepage" : "https://github.com/easylist/easylistportuguese",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 17,
+        "keyword" : "lang:es"
+      }, {
+        "id" : 18,
+        "keyword" : "lang:pt"
+      } ],
+      "lastTimeDownloaded" : 1689843654000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 254,
+      "displayOrder" : 2,
+      "name" : "Macedonian adBlock Filters",
+      "description" : "Blocks ads and trackers on various Macedonian websites.",
+      "version" : "2.0.0.5",
+      "group" : "Language",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/RandomAdversary/Macedonian-adBlock-Filters/master/Filters",
+      "homepage" : "https://github.com/DeepSpaceHarbor/Macedonian-adBlock-Filters",
+      "tags" : [ {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 10,
+        "keyword" : "recommended"
+      }, {
+        "id" : 71,
+        "keyword" : "lang:mk"
+      } ],
+      "lastTimeDownloaded" : 1683709316000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : null
+  }, {
+    "meta" : {
+      "id" : 256,
+      "displayOrder" : 1,
+      "name" : "Scam Blocklist by DurableNapkin",
+      "description" : "List for blocking untrustworthy websites.",
+      "version" : "2.0.3.61",
+      "group" : "Security",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt",
+      "homepage" : "https://github.com/durablenapkin/scamblocklist",
+      "tags" : [ {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      } ],
+      "lastTimeDownloaded" : 1743323803000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_256.txt"
+  }, {
+    "meta" : {
+      "id" : 257,
+      "displayOrder" : 1,
+      "name" : "uBlock Origin – Badware risks",
+      "description" : "Filter for risky sites, warning users of potential threats.",
+      "version" : "2.0.6.65",
+      "group" : "Security",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets/",
+      "tags" : [ {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      } ],
+      "lastTimeDownloaded" : 1743525519000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_257.txt"
+  }, {
+    "meta" : {
+      "id" : 255,
+      "displayOrder" : 1,
+      "name" : "Phishing URL Blocklist",
+      "description" : "Phishing URL blocklist for uBlock Origin (uBO), AdGuard, Vivaldi, Pi-hole, Hosts file, Dnsmasq, BIND, Unbound, Snort and Suricata.",
+      "version" : "2.0.7.5",
+      "group" : "Security",
+      "subscriptionUrl" : "https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt",
+      "homepage" : "https://gitlab.com/malware-filter/phishing-filter",
+      "tags" : [ {
+        "id" : 4,
+        "keyword" : "purpose:security"
+      } ],
+      "lastTimeDownloaded" : 1743511517000,
+      "enabled" : false,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_255.txt"
+  }, {
+    "meta" : {
+      "id" : 10003,
+      "displayOrder" : 0,
+      "name" : "Block Outsider Intrusion into LAN",
+      "description" : "Prevents public internet sites from digging into your local LAN files.",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/lan-block.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743424574901,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10003.txt"
+  }, {
+    "meta" : {
+      "id" : 10000,
+      "displayOrder" : 0,
+      "name" : "Bypass Paywalls Clean filter",
+      "description" : "Filters for news sites (supports less sites than the extension/add-on)",
+      "version" : "4.0.8.0",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt",
+      "homepage" : "https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743487808791,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10000.txt"
+  }, {
+    "meta" : {
+      "id" : 10002,
+      "displayOrder" : 0,
+      "name" : "uBlock filters",
+      "description" : "Filters optimized for uBlock, to be used along EasyList",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743538445226,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10002.txt"
+  }, {
+    "meta" : {
+      "id" : 10004,
+      "displayOrder" : 0,
+      "name" : "uBlock filters – Privacy",
+      "description" : "|",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743424582592,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10004.txt"
+  }, {
+    "meta" : {
+      "id" : 10005,
+      "displayOrder" : 0,
+      "name" : "uBlock₀ filters – Annoyances",
+      "description" : "Filters optimized for uBlock Origin, to be used with Fanboy's and/or Adguard's \"Annoyances\" list(s)",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/annoyances.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743424583590,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10005.txt"
+  }, {
+    "meta" : {
+      "id" : 10006,
+      "displayOrder" : 0,
+      "name" : "uBlock filters – Unbreak",
+      "description" : "Filters optimized for uBlock Origin, to unbreak sites broken as a result of 3rd-party filter lists enabled by default.",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/unbreak.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743511903445,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10006.txt"
+  }, {
+    "meta" : {
+      "id" : 10007,
+      "displayOrder" : 0,
+      "name" : "uBlock₀ filters – Quick fixes",
+      "description" : "Immediate, temporary filters to fix websites",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/uBlockOrigin/uAssets/raw/master/filters/quick-fixes.txt",
+      "homepage" : "https://github.com/uBlockOrigin/uAssets",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743527595502,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10007.txt"
+  }, {
+    "meta" : {
+      "id" : 10008,
+      "displayOrder" : 0,
+      "name" : "Botnet IP Blocklist",
+      "description" : "",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://malware-filter.gitlab.io/malware-filter/botnet-filter-ag.txt",
+      "homepage" : "https://gitlab.com/malware-filter/botnet-filter",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743511905093,
+      "enabled" : true,
+      "trusted" : false
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10008.txt"
+  }, {
+    "meta" : {
+      "id" : 10001,
+      "displayOrder" : 0,
+      "name" : "User Filter (Internal Usage)",
+      "description" : "My User Filter",
+      "version" : "202503311538",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/arfshl/personal-blocklist/raw/main/internal-usage/b.txt",
+      "homepage" : "https://github.com/arfshl/personal-blocklist",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743487817371,
+      "enabled" : true,
+      "trusted" : true
+    },
+    "relativePathToFilteringRules" : "/filters/filter_10001.txt"
+  } ],
+  "DnsEnableServfailOnUpstreamsFailure" : true,
+  "FilterSecureDnsType" : "FilterOnTheFly",
+  "RequestTimeout" : 5000,
+  "VpnMtu" : 9000,
+  "DetectSearchDomains" : false,
+  "BlockedResponseTtlSecs" : 3600,
+  "HostsRulesBlockingMode" : "ADDRESS",
+  "BootstrapUpstreams" : [ "45.90.28.0:5353", "45.90.30.0:5353", "94.140.14.140:5353", "94.140.14.141:5353" ],
+  "DnsBlockEch" : false,
+  "HiddenHomeCards" : [ ],
+  "DnsBootstrapUpstreamsType" : "CustomDns",
+  "CustomBlockingIpv6" : "",
+  "CustomBlockingIpv4" : "",
+  "SelectedSortedByOnAllSubdomainsStatisticsScreen" : "MostBlocked",
+  "CustomServers" : [ {
+    "id" : 1000,
+    "providerId" : 1000000,
+    "name" : "AdGuardHome",
+    "type" : "dns",
+    "upstreams" : [ "127.0.0.1:5353" ],
+    "parallelResolve" : true
+  } ],
+  "FallbackDomains" : [ ],
+  "PrivateBrowserOnboardingShouldBeShown" : false,
+  "SelectedNetworkTypeForDataUsageOnStatisticsScreen" : "Any",
+  "ShowDeveloperToolsOnHomeScreen" : true,
+  "FallbackUpstreamsType" : "CustomDns",
+  "VpnIpv4Address" : "172.18.11.218",
+  "AllAllowListRules" : "",
+  "DnsFilteringEnabled" : true,
+  "FilterSecureDnsEnabled" : true,
+  "SelectedStatisticsDatePeriod" : "Today",
+  "SelectedNetworkTypeForDnsOnStatisticsScreen" : "Any",
+  "VpnForceIPv4DefaultRoute" : false,
+  "WhatsNewDialogShownLastVersion" : "4.0",
+  "DnsEnableUpstreamsValidation" : true,
+  "DnsModuleEnabled" : true,
+  "DnsUserFiltersEnabled" : true,
+  "VpnForceIPv4ComplexRoute" : false,
+  "SelectedStatisticsSortedByForApplications" : "MostRequested",
+  "AdBlockRulesBlockingMode" : "REFUSED",
+  "DnsFilters" : [ {
+    "meta" : {
+      "id" : 15,
+      "displayOrder" : 3,
+      "name" : "AdGuard DNS filter (Optimized)",
+      "description" : "Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.",
+      "version" : "2.0.79.35",
+      "group" : "Other",
+      "subscriptionUrl" : "https://filters.adtidy.org/android/filters/15_optimized.txt",
+      "homepage" : "https://adguard.com/kb/general/ad-filtering/adguard-filters/",
+      "tags" : [ {
+        "id" : 45,
+        "keyword" : "problematic"
+      }, {
+        "id" : 1,
+        "keyword" : "purpose:ads"
+      }, {
+        "id" : 2,
+        "keyword" : "purpose:privacy"
+      } ],
+      "lastTimeDownloaded" : 1745370722477,
+      "enabled" : true,
+      "rulesCount" : 106196
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_15.txt"
+  }, {
+    "meta" : {
+      "id" : 10013,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's The World's Most Abused TLDs",
+      "description" : "The Top Most Abused Top Level Domains",
+      "version" : "2025.0422.0250.33",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745370723404,
+      "enabled" : true,
+      "rulesCount" : 403
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10013.txt"
+  }, {
+    "meta" : {
+      "id" : 10029,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's Samsung Tracker DNS Blocklist",
+      "description" : "Blocks Samsung native broadband tracker that track your activity.",
+      "version" : "2025.0411.2327.50",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745016272296,
+      "enabled" : true,
+      "rulesCount" : 207
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10029.txt"
+  }, {
+    "meta" : {
+      "id" : 10003,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
+      "description" : "Increases security significantly! Blocks Malware, Cryptojacking, Spam, Scam and Phishing.",
+      "version" : "2025.0422.1101.29",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745370739327,
+      "enabled" : true,
+      "rulesCount" : 1009091
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10003.txt"
+  }, {
+    "meta" : {
+      "id" : 10000,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's Pro DNS Blocklist",
+      "description" : "Big broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Crytojacking and other \"Crap\".",
+      "version" : "2025.0422.1405.37",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745370743737,
+      "enabled" : true,
+      "rulesCount" : 213492
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10000.txt"
+  }, {
+    "meta" : {
+      "id" : 10006,
+      "displayOrder" : 0,
+      "name" : "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/engines_safe_search.txt",
+      "description" : "",
+      "version" : "",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/engines_safe_search.txt",
+      "homepage" : "",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1743600076804,
+      "enabled" : true,
+      "rulesCount" : 272
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10006.txt"
+  }, {
+    "meta" : {
+      "id" : 10002,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's Windows/Office Tracker DNS Blocklist",
+      "description" : "Blocks Windows/Office native broadband tracker that track your activity.",
+      "version" : "2025.0420.0410.59",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745197826840,
+      "enabled" : true,
+      "rulesCount" : 373
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10002.txt"
+  }, {
+    "meta" : {
+      "id" : 10001,
+      "displayOrder" : 0,
+      "name" : "personal-blocklist (Internal Usage DNS Filtering)",
+      "description" : "My User Filter",
+      "version" : "202504181231",
+      "group" : "Custom",
+      "subscriptionUrl" : "https://github.com/arfshl/adblock-dns-config/raw/main/internal-usage/b.txt",
+      "homepage" : "https://github.com/arfshl/adblock-dns-config",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745111416008,
+      "enabled" : true,
+      "rulesCount" : 48
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10001.txt"
+  }, {
+    "meta" : {
+      "id" : 10004,
+      "displayOrder" : 0,
+      "name" : "HaGeZi's Gambling DNS Blocklist",
+      "description" : "Blocks gambling content.",
+      "version" : "2025.0422.1605.23",
+      "group" : null,
+      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
+      "homepage" : "https://github.com/hagezi/dns-blocklists",
+      "tags" : [ ],
+      "lastTimeDownloaded" : 1745370753165,
+      "enabled" : true,
+      "rulesCount" : 626744
+    },
+    "relativePathToFilteringRules" : "/dns_filters/filter_10004.txt"
+  } ],
+  "SelectedNetworkTypeForRequestsOnStatisticsScreen" : "Any",
+  "SelectedStatisticsSortedByForCompanies" : "MostRequested",
+  "OutboundProxyDnsUpstreams" : [ "45.90.28.0:5353", "45.90.30.0:5353", "94.140.14.140:5353", "94.140.14.141:5353" ],
+  "DnsEnableFallbackForNonFallbackDomains" : false,
+  "DnsTryHttp3ForDoH" : true,
+  "ExitDialogShouldBeShown" : true,
+  "DnsCacheSize" : 1000
+}

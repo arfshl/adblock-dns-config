@@ -1,0 +1,5 @@
+{
+  "VpnAutoPauseVpn" : true,
+  "VpnWritePcap" : false,
+  "VpnIpv6Address" : "2001:db8:ad:0:ff::"
+}
