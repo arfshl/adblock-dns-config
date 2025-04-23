@@ -1,0 +1,23 @@
+[Adblock Plus 2.0]
+! Title: adblock-dns-config (Parental Control)
+! Version: 310525
+! Homepage: https://github.com/arfshl/adblock-dns-config
+! Description: My User Filter
+! Expires: 1 days
+! Sources: https://github.com/AdguardTeam/HostlistsRegistry/tree/main/services
+
+! OnlyFans
+*onlyfans.com
+
+! Tinder
+*tinder*.com
+
+! MiChat
+*michat.sg
+
+! Terabox
+*terabox.com
+
+! Bigo Live
+bigo*.tv
+bigo*.sg

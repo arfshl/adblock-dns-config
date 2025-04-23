@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: adblock-dns-config (Anti-Judol)
+! Version: 31052025
+! Homepage: https://github.com/arfshl/adblock-dns-config
+! Description: Memblokir situs dan iklan judi online di level domain
+! Expires: 1 days
+
+*toto*
+*judi*
+*togel*
+*poker*
+*taruhan*
+*hoki*

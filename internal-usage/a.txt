@@ -1,0 +1,6 @@
+! AdGuardHome Personal User Rules - Modified 10042025
+
+userlocation.googleapis.com
+*xn--*.*
+*.onion.*
+bca-*.*

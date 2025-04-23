@@ -1,0 +1,16 @@
+[Adblock Plus 2.0]
+! Title: adblock-dns-config (Block Tor2Web)
+! Version: 03042025
+! Homepage: https://github.com/arfshl/adblock-dns-config
+! Description: Block Tor2Web service
+! Expires: 1 days
+
+
+! Wildcard covering all
+*.onion.*
+
+! Per-Proxy
+||onion.to^
+||onion.cab^
+||onion.city^
+||onion.direct^

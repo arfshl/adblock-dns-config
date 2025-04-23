@@ -1,0 +1,21 @@
+[Adblock Plus 2.0]
+! Title: adblock-dns-config (Unblock)
+! Version: 14042025
+! Homepage: https://github.com/arfshl/adblock-dns-config
+! Description: Unblock false positives or important domain
+! Expires: 1 days
+
+!! WindowsSpyBlocker Update whitelists
+
+! Windows Defender definition update
+@@||definitionupdates.microsoft.com^
+
+! Windows Update Catalog
+@@||catalog.update.microsoft.com^
+@@||catalog.s.download.windowsupdate.com^
+
+! OneDrive
+@@||skydrivesync.policies.live.net^
+
+! Microsoft Edge Extensions
+@@||msedgeextensions.sf.tlu.dl.delivery.mp.microsoft.com^
