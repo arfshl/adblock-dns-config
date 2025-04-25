@@ -4,15 +4,11 @@
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://sky.rethinkdns.com/1:YAoACBAAgADAvw== | 1-mafaacaqacaabqf7.max.rethinkdns.com |
+| https://sky.rethinkdns.com/1:AAoACBAA | 1-aafaacaqaa.max.rethinkdns.com |
 
 List Used:
 - Hagezi Multi Pro
 - Hagezi Threat Intelligence feeds
-- Hagezi Native Apple
-- WindowsSpyBlocker
-- NextDNS Native Tracking (ALL)
-- Perflyst Smart TV Blocklist
 
 
 ## RethinkDNS Configuration (Ads,Tracker,Malware Blocking + Parental Control)
