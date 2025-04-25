@@ -127,10 +127,6 @@ filters:
     name: HaGeZi's Pro Blocklist
     id: 1743668878
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
-    name: HaGeZi's Windows/Office Tracker Blocklist
-    id: 1743668880
-  - enabled: true
     url: https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt
     name: https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt
     id: 1744759437
