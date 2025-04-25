@@ -4,30 +4,27 @@
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://dns.dnswarden.com/2000000000000u000100218 | 2000000000000u000100218.dns.dnswarden.com |
+| https://dns.dnswarden.com/2000000000000g00010021c | 2000000000000g00010021c.dns.dnswarden.com |
 
 List Used:
 - dnswarden (Whitelist)
 - dnswarden (Blacklist)
 - dnswarden (Blacklist Wildcard)
-- HaGeZi(Threat Intelligence Feeds)
+- HaGeZi (Threat Intelligence Feeds)
 - HaGeZi (Multi Pro)
 - NextDNS (Affiliate Tracking Domains Whitelist)
-- NextDNS & HaGeZi (Huawei)
-- NextDNS & HaGeZi (Windows)
-- NextDNS (Xiaomi)
+- dnswarden (Tiny whitelist & blacklist)
 
 ## dnswarden Configuration (Ads,Tracker,Malware Blocking + Parental Control)
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://dns.dnswarden.com/71000000cg000u0001003p8 | 71000000cg000u0001003p8.dns.dnswarden.com |
+| https://dns.dnswarden.com/71000000cg000g00010039c | 71000000cg000g00010039c.dns.dnswarden.com |
 
 List Used:
 
 Additions from above:
 - dnswarden (Blacklist Adult Content)
-- dnswarden (Whitelist Adult Content)
 - dnswarden (Adult Filter Blacklist Wildcard)
 - OISD NSFW
 - 1Hosts kidSaf
@@ -41,7 +38,7 @@ Additions from above:
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://dns.dnswarden.com/71000800sg06cu0001003p8 | 71000800sg06cu0001003p8.dns.dnswarden.com |
+| https://dns.dnswarden.com/71020800sg06cg00010039c | 71020800sg06cg00010039c.dns.dnswarden.com |
 
 List Used:
 
