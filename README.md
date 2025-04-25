@@ -25,8 +25,6 @@
 
 - [Abused TLDs - for local phishing](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt)
 
-- [HaGeZi Native Tracker (Depending on Device)](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#native)
-
 - [WindowsSpyBlocker Update - For disabling windows update, but blocks access to microsoft store](https://github.com/crazy-max/WindowsSpyBlocker/raw/master/data/dnscrypt/update.txt)
 
 - [Adobe Tracker Blocklist (if you use adobe products)](https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt)
