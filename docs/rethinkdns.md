@@ -15,7 +15,7 @@ List Used:
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://sky.rethinkdns.com/1:cKoA8AQAAAgQAIAAwr8gAA== | 1-ocvab4aeaaaaqeaaqaamfpzaaa.max.rethinkdns.com |
+| |  |
 
 List Used:
 
@@ -32,7 +32,7 @@ Additions from above:
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://sky.rethinkdns.com/1:cPoA8JEIn0YAgAAIEACAAMK_IAA= | 1-od5ab4erbcpumaeaaaebaaeaadbl6iaa.max.rethinkdns.com |
+| | |
 
 List Used:
 
@@ -57,7 +57,7 @@ NextDNS Services:
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://sky.rethinkdns.com/1:cPoA8JkIv-YAgAAIEACAAMK_IAA= | 1-od5ab4ezbc76maeaaaebaaeaadbl6iaa.max.rethinkdns.com |
+|  |  |
 
 List Used:
 
@@ -73,7 +73,7 @@ NextDNS Services:
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
-| https://sky.rethinkdns.com/1:cPoA8N0Jv_YAgAAIEACAAMK_IAA= | 1-od5ab4g5bg77maeaaaebaaeaadbl6iaa.max.rethinkdns.com |
+|  |  |
 
 List Used:
 
