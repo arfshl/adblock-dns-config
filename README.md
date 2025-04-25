@@ -97,7 +97,7 @@ Removing more annoying elements from the websites
 
 - [My Personal filter](https://raw.githubusercontent.com/arfshl/adblock-dns-config/refs/heads/main/internal-usage/b.txt)
 
-- [AdGuard for Android](https://github.com/arfshl/adblock-dns-config/archive/refs/heads/adguard-for-android-config.zip)
+- [AdGuard for Android](https://github.com/arfshl/adblock-dns-config/archive/refs/heads/adguard-android.zip)
 
 - [Private AdGuard DNS](https://github.com/arfshl/adblock-dns-config/raw/main/res/adguarddnsconfig.txt)
 
