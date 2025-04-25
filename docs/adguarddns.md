@@ -7,9 +7,6 @@
 - HaGeZi's The World's Most Abused TLDs (Security)
 - HaGeZi's DynDNS Blocklist (Security)
 - HaGeZi's Allowlist Referral (Other)
-- HaGeZi's Windows/Office Tracker Blocklist (Other) -> Enable if you use Microsoft products
-- HaGeZi's Xiaomi Tracker Blocklist (Other) -> Enable if you use Xiaomi products
-- HaGeZi's Samsung Tracker Blocklist -> Enable if you use Samsung products
 - HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass (Other) -> Enable if you want to control as parents (This is block VPN or Proxy that can bypass DNS Protection)
 - ShadowWhisperer's Dating List (Other) -> Enable if you want to control as parents (Blocks Dating Websites/Apps)
 - HaGeZi's Gambling Blocklist -> Enable if you want to control as parents (Block Gambling Contents)
