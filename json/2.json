@@ -13,7 +13,7 @@
   "DnsDisabledUserRules" : [ ],
   "DisabledAllowListRules" : "",
   "VpnIncludeGateway" : true,
-  "DnsAllUserRules" : [ "20.43.161.151 duckduckgo.com" ],
+  "DnsAllUserRules" : [ ],
   "FallbackUpstreams" : [ "45.90.28.0:5353", "45.90.30.0:5353", "94.140.14.140:5353", "94.140.14.141:5353" ],
   "Filters" : [ {
     "meta" : {
@@ -2166,22 +2166,6 @@
     "relativePathToFilteringRules" : "/dns_filters/filter_10013.txt"
   }, {
     "meta" : {
-      "id" : 10029,
-      "displayOrder" : 0,
-      "name" : "HaGeZi's Samsung Tracker DNS Blocklist",
-      "description" : "Blocks Samsung native broadband tracker that track your activity.",
-      "version" : "2025.0411.2327.50",
-      "group" : "Custom",
-      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt",
-      "homepage" : "https://github.com/hagezi/dns-blocklists",
-      "tags" : [ ],
-      "lastTimeDownloaded" : 1745016272296,
-      "enabled" : true,
-      "rulesCount" : 207
-    },
-    "relativePathToFilteringRules" : "/dns_filters/filter_10029.txt"
-  }, {
-    "meta" : {
       "id" : 10003,
       "displayOrder" : 0,
       "name" : "HaGeZi's Threat Intelligence Feeds DNS Blocklist",
@@ -2228,22 +2212,6 @@
       "rulesCount" : 272
     },
     "relativePathToFilteringRules" : "/dns_filters/filter_10006.txt"
-  }, {
-    "meta" : {
-      "id" : 10002,
-      "displayOrder" : 0,
-      "name" : "HaGeZi's Windows/Office Tracker DNS Blocklist",
-      "description" : "Blocks Windows/Office native broadband tracker that track your activity.",
-      "version" : "2025.0420.0410.59",
-      "group" : "Custom",
-      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
-      "homepage" : "https://github.com/hagezi/dns-blocklists",
-      "tags" : [ ],
-      "lastTimeDownloaded" : 1745197826840,
-      "enabled" : true,
-      "rulesCount" : 373
-    },
-    "relativePathToFilteringRules" : "/dns_filters/filter_10002.txt"
   }, {
     "meta" : {
       "id" : 10001,
