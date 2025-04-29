@@ -1,5 +1,4 @@
 # AhaDNS Blitz Configuration
-! Warning: The Block List Project used by this configuration is outdated (not been updated since ~ 5 months ago) and some blocked sites may missed
 
 ### (Ads,Tracker,Malware Blocking)
 
