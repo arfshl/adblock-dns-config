@@ -1,5 +1,7 @@
 # ControlD Free Configuration
 
+#### Paid users should go [here](https://github.com/yokoffing/Control-D-Config)
+
 ### Hagezi Pro (Ads+Tracker)
 | DNS-Over-HTTPS |  DNS-Over-TLS/QUIC | Apple |
 | --- | --- | --- |
