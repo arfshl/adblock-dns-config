@@ -12,6 +12,7 @@
 - [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md)
 - [RethinkDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/rethinkdns.md)
 - [dnswarden Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dnswarden.md)
+- [ControlD Free Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/controld-free.md)
 - [AhaDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/ahadns.md)
 - [AdGuard Home/AdGuard for Android DNS Upstream](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dns-resolvers.md)
 
