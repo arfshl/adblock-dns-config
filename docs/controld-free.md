@@ -2,7 +2,7 @@
 
 #### Paid users should go [here](https://github.com/yokoffing/Control-D-Config)
 
-### Hagezi Pro (Ads+Tracker)
+### Hagezi Pro (Ads, Tracker, Malware, Phishing)
 | DNS-Over-HTTPS |  DNS-Over-TLS/QUIC | Apple |
 | --- | --- | --- |
 | https://freedns.controld.com/x-hagezi-pro | x-hagezi-pro.freedns.controld.com | https://api.controld.com/mobileconfig/x-hagezi-pro?type=free&exclude_common=1 |
