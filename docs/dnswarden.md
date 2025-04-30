@@ -1,4 +1,6 @@
-## dnswarden Configuration (Ads,Tracker,Malware Blocking)
+# dnswarden Configuration 
+
+## (Ads,Tracker,Malware Blocking)
 
 ! Warning: No server uptime guarantee, as written on their [Privacy policy and T&C](https://github.com/bhanupratapys/dnswarden#privacy-policy-and-tc)
 
@@ -11,7 +13,7 @@ List Used:
 - HaGeZi (Multi Pro)
 - NextDNS (Affiliate Tracking Domains Whitelist)
 
-## dnswarden Configuration (Ads,Tracker,Malware Blocking + Parental Control)
+## (Ads,Tracker,Malware Blocking + Parental Control)
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
@@ -28,7 +30,7 @@ Additions from above:
 - The Block List Project (Drugs)
 
 
-## dnswarden Configuration (Ads,Tracker,Malware Blocking + Parental Control + Social Media)
+## (Ads,Tracker,Malware Blocking + Parental Control + Social Media)
 
 | DNS-Over-HTTPS | DNS-Over-TLS |
 | --- | --- |
@@ -45,4 +47,62 @@ NextDNS Services:
 - Twitter
 - Vimeo
 - The Block List Project & HaGeZi (TikTok)
+
+## (Ads,Tracker,Malware Blocking + Parental Control + Social Media + Streaming Services)
+
+| DNS-Over-HTTPS | DNS-Over-TLS |
+| --- | --- |
+| https://dns.dnswarden.com/50000800ss1feg000000018 | 50000800ss1feg000000018.dns.dnswarden.com |
+
+List Used:
+
+Additions from above:
+NextDNS Services: 
+
+- Streaming Audio + Video
+- Netflix
+- Dailymotion
+
+## (Ads,Tracker,Malware Blocking + Parental Control + Social Media + Streaming Services + Gaming Platform)
+
+| DNS-Over-HTTPS | DNS-Over-TLS |
+| --- | --- |
+| https://dns.dnswarden.com/50000800ss1fug000000018 | 50000800ss1fug000000018.dns.dnswarden.com |
+
+List Used:
+
+Additions from above:
+NextDNS Services: 
+
+- Steam
+
+## (Ads,Tracker,Malware Blocking + Parental Control + Social Media + Streaming Services + Gaming Platform + Piracy)
+
+| DNS-Over-HTTPS | DNS-Over-TLS |
+| --- | --- |
+| https://dns.dnswarden.com/50000800vvtfug000000018 | 50000800vvtfug000000018.dns.dnswarden.com |
+
+List Used:
+
+Additions from above:
+NextDNS Services: 
+- DHT-Bootstrap-Nodes
+- File Hosting
+- Torrent Client + Website + Trackers
+- Usenet
+- Warez
+
+## (Ads,Tracker,Malware Blocking + Parental Control + Social Media + Streaming Services + Gaming Platform + Piracy + Online Shopping)
+
+| DNS-Over-HTTPS | DNS-Over-TLS |
+| --- | --- |
+| https://dns.dnswarden.com/50000800vvvvug000000018 | 50000800vvvvug000000018.dns.dnswarden.com |
+
+List Used:
+
+Additions from above:
+NextDNS Services: 
+- Amazon
+- Ebay
+
 
