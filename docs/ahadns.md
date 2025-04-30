@@ -14,11 +14,17 @@ List Used:
 
 | DNS-Over-HTTPS | Apple |
 | --- | --- |
-| https://blitz.ahadns.com/1:1.3.9 | https://blitz.ahadns.com/config/mobileconfig?path=1:1.3.9 |
+| https://blitz.ahadns.com/1:1.3.9.11 | https://blitz.ahadns.com/config/mobileconfig?path=1:1.3.9.11 |
 
 List Used:
 
 Addition from above:
 - OISD NSFW
 - Dating (Olbat)
-  
+- Gambling (TBLP)
+
+### (Ads,Tracker,Malware Blocking + Parental Control + Social)
+
+| DNS-Over-HTTPS | Apple |
+| --- | --- |
+| https://blitz.ahadns.com/1:1.3.9.11.19.24 | https://blitz.ahadns.com/config/mobileconfig?path=1:1.3.9.11.19.24 |
