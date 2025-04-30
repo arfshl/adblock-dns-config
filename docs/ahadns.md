@@ -28,3 +28,9 @@ Addition from above:
 | DNS-Over-HTTPS | Apple |
 | --- | --- |
 | https://blitz.ahadns.com/1:1.3.9.11.19.24 | https://blitz.ahadns.com/config/mobileconfig?path=1:1.3.9.11.19.24 |
+
+List Used:
+
+Addition from above:
+- Facebook (TBLP)
+- TikTok (TBLP)
