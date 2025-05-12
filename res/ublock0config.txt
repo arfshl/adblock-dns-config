@@ -1,13 +1,14 @@
 {
-  "timeStamp": 1743945907694,
+  "timeStamp": 1747059777488,
   "version": "1.63.2",
   "userSettings": {
     "advancedUserEnabled": true,
-    "externalLists": "https://github.com/arfshl/adblock-dns-config/raw/main/internal-usage/b.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
+    "externalLists": "https://github.com/arfshl/personal-blocklist/raw/main/internal-usage/b.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "firewallPaneMinimized": false,
     "importedLists": [
-      "https://github.com/arfshl/adblock-dns-config/raw/main/internal-usage/b.txt",
+      "https://github.com/arfshl/personal-blocklist/raw/main/internal-usage/b.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
+      "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
       "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt"
     ],
     "popupPanelSections": 31,
@@ -36,8 +37,9 @@
     "ublock-annoyances",
     "IDN-0",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
+    "https://github.com/arfshl/personal-blocklist/raw/main/internal-usage/b.txt",
     "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
-    "https://github.com/arfshl/adblock-dns-config/raw/main/internal-usage/b.txt"
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
