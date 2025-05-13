@@ -2228,22 +2228,6 @@
       "rulesCount" : 48
     },
     "relativePathToFilteringRules" : "/dns_filters/filter_10001.txt"
-  }, {
-    "meta" : {
-      "id" : 10004,
-      "displayOrder" : 0,
-      "name" : "HaGeZi's Gambling DNS Blocklist",
-      "description" : "Blocks gambling content.",
-      "version" : "2025.0422.1605.23",
-      "group" : null,
-      "subscriptionUrl" : "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
-      "homepage" : "https://github.com/hagezi/dns-blocklists",
-      "tags" : [ ],
-      "lastTimeDownloaded" : 1745370753165,
-      "enabled" : true,
-      "rulesCount" : 626744
-    },
-    "relativePathToFilteringRules" : "/dns_filters/filter_10004.txt"
   } ],
   "SelectedNetworkTypeForRequestsOnStatisticsScreen" : "Any",
   "SelectedStatisticsSortedByForCompanies" : "MostRequested",
