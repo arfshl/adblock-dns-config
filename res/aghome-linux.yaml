@@ -119,8 +119,8 @@ filters:
     name: HaGeZi's Pro Blocklist
     id: 1743666716
   - enabled: true
-    url: https://raw.githubusercontent.com/arfshl/adblock-dns-config/refs/heads/main/internal-usage/b.txt
-    name: https://raw.githubusercontent.com/arfshl/adblock-dns-config/refs/heads/main/internal-usage/b.txt
+    url: https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt
+    name: https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt
     id: 1744725402
   - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
