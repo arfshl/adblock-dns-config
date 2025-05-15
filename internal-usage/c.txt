@@ -1,1 +1,0 @@
-! NextDNS Denylist/Allowlist - Modified 23042025
