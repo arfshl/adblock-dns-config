@@ -30,8 +30,6 @@
 
 - [Adobe Tracker Blocklist (if you use adobe products)](https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt)
 
-- [Supplements (blocks missed domain i came acrross, tor2web, IDN homographs (non-latin domains and TLDs), unblocking important domain)](https://github.com/arfshl/adblock-dns-config/edit/main/unified-filter/supplements.txt)
-
 #### AdGuard Home Parental Control
 
 - You Can Block/Unblock Services at Blocked Services menu, and set schedule for pause blocking
@@ -76,8 +74,6 @@
 
 - [🚪 Browse websites without logging in](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt)
 
-- [Supplements (blocks missed domain/elements, tor2web, IDN homographs (non-latin domains and TLDs), unblocking important domain)](https://github.com/arfshl/adblock-dns-config/edit/main/unified-filter/supplements.txt)
-
 ## uBlock Origin Lite [(Chrome, Edge, Opera, Vivaldi, and other Chromium-based browsers)](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
 #### Settings
 - Default filtering mode: Complete
@@ -94,9 +90,7 @@ Removing more annoying elements from the websites
 
 [AutoAllPages (Indonesian Only)](https://raw.githubusercontent.com/reforget-id/AutoAllPage/main/script/autoallpage.user.js) - Otomatis menampilkan semua halaman artikel berita dalam 1 halaman.
 
-#### I also shared my personal configuration files, notes that this only optimized for my own devices, only use this for references\
-
-- [My Personal filter](https://raw.githubusercontent.com/arfshl/adblock-dns-config/refs/heads/main/internal-usage/b.txt)
+#### I also shared my personal configuration files, notes that this only optimized for my own devices, only use this for references
 
 - [AdGuard for Android](https://github.com/arfshl/adblock-dns-config/archive/refs/heads/adguard-android.zip)
 
