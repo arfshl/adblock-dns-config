@@ -1,11 +1,12 @@
 {
-  "timeStamp": 1747311787540,
+  "timeStamp": 1747401566201,
   "version": "1.63.2",
   "userSettings": {
     "advancedUserEnabled": true,
-    "externalLists": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
+    "externalLists": "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "firewallPaneMinimized": false,
     "importedLists": [
+      "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
       "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt",
       "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
@@ -39,7 +40,8 @@
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
-    "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt"
+    "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt",
+    "https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt"
   ],
   "hiddenSettings": {},
   "whitelist": [
@@ -49,5 +51,5 @@
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
-  "userFilters": ""
+  "userFilters": "detik.com##.float-vid__content\n\n! May 16, 2025 https://health.detik.com\ndetik.com##.redirect__page\n\n! May 16, 2025 https://finance.detik.co\n\n! May 16, 2025 https://finance.detik.com\n\n! May 16, 2025 https://www.detik.com"
 }
