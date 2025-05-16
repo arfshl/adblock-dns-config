@@ -72,6 +72,8 @@
 
 - [AdBlockID (for Indonesian region)](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt&title=AdBlockID)
 
+- [AdBlockID Plus (remove annoying elements like pop-up and widgets, for Indonesian region)](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt&title=AdBlockID%20Plus)
+
 - [🚪 Browse websites without logging in](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt)
 
 ## uBlock Origin Lite [(Chrome, Edge, Opera, Vivaldi, and other Chromium-based browsers)](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
