@@ -127,10 +127,6 @@ filters:
     name: HaGeZi's Pro Blocklist
     id: 1743668878
   - enabled: true
-    url: https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt
-    name: https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt
-    id: 1744759437
-  - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
     name: HaGeZi's Gambling Blocklist
     id: 1745242147
