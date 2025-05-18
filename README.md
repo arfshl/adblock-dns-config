@@ -28,8 +28,6 @@
 
 - [WindowsSpyBlocker Update - For disabling windows update, but blocks access to microsoft store](https://github.com/crazy-max/WindowsSpyBlocker/raw/master/data/dnscrypt/update.txt)
 
-- [Adobe Tracker Blocklist (if you use adobe products)](https://github.com/ignaciocastro/a-dove-is-dumb/raw/main/pihole.txt)
-
 #### AdGuard Home Parental Control
 
 - You Can Block/Unblock Services at Blocked Services menu, and set schedule for pause blocking
