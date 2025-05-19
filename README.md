@@ -70,7 +70,7 @@
 
 - [AdBlockID (for Indonesian region)](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt&title=AdBlockID)
 
-- [AdBlockID Plus (remove annoying elements like pop-up and widgets, for Indonesian region)](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid_plus.adfl.txt&title=AdBlockID%20Plus)
+- [ABPindo Extended (remove annoying elements like pop-up and widgets, for Indonesian region)](https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt)
 
 - [🚪 Browse websites without logging in](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt)
 
