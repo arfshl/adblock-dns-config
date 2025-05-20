@@ -68,7 +68,7 @@
 
 - [Abused TLDs - for local phishing (Unnecesary if you already use this on DNS-level)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
 
-- [AdBlockID (for Indonesian region)](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt&title=AdBlockID)
+- [AdBlockID (for Indonesian region)](https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt)
 
 - [ABPindo Extended (remove annoying elements like pop-up and widgets, for Indonesian region)](https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt)
 
