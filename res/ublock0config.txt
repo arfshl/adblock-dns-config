@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1747672053400,
-  "version": "1.64.0",
+  "timeStamp": 1747700079946,
+  "version": "1.63.2",
   "userSettings": {
     "advancedUserEnabled": true,
     "externalLists": "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
@@ -35,6 +35,7 @@
     "easylist-newsletters",
     "easylist-notifications",
     "easylist-annoyances",
+    "ublock-annoyances",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
     "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
