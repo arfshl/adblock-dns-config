@@ -4,7 +4,7 @@
 - [AdGuard Home or AdGuard for Android DNS Filtering](https://github.com/arfshl/adblock-dns-config/tree/main#adguard-home-or-adguard-for-android-dns-filtering)
 - [AdGuard Home Parental Control](https://github.com/arfshl/adblock-dns-config/tree/main#parental-control)
 - [uBlock Origin | Brave Browser | AdGuard for Android Recommended Filter](https://github.com/arfshl/adblock-dns-config/tree/main#ublock-origin--brave-browser--adguard-for-android)
-- [uBlock Origin Lite](https://github.com/arfshl/adblock-dns-config/tree/main#ublock-origin-lite)
+- [uBlock Origin Lite](https://github.com/arfshl/adblock-dns-config/tree/main#ublock-origin-lite-chrome-edge-opera-vivaldi-and-other-chromium-based-browsers)
 - [Recommended Tampermonkey Userscirpt](https://github.com/arfshl/adblock-dns-config/tree/main#recommended-tampermonkey-userscripts)
 - [Android/iOS Secure DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/android-resolvers.md)
 - [Parental Control DNS Services](https://github.com/arfshl/adblock-dns-config/blob/main/docs/parental-resolver.md)
