@@ -101,3 +101,5 @@ Removing more annoying elements from the websites
 - [AdGuard Home for Windows](https://github.com/arfshl/adblock-dns-config/raw/main/res/aghome-win.yaml)
 
 - [AdGuard Home for Linux](https://github.com/arfshl/adblock-dns-config/raw/main/res/aghome-linux.yaml)
+
+- [arfshl/filterlist](https://github.com/arfshl/filterlist): My Personal Filter
