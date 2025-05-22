@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1747700079946,
+  "timeStamp": 1747876540104,
   "version": "1.63.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -35,10 +35,8 @@
     "easylist-newsletters",
     "easylist-notifications",
     "easylist-annoyances",
-    "ublock-annoyances",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
-    "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
     "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt"
   ],
