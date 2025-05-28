@@ -1,4 +1,4 @@
-## Android/iOS Secure DNS with Adblocking
+## Android/iOS Secure DNS/Linux systemd-resolved DoT Upstream with Adblocking
 Criteria: Must be have Ads, Tracker and Malware blocking capabilities
 
 | Provider | Address | Apple Mobileconfig
