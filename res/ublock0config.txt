@@ -1,18 +1,20 @@
 {
-  "timeStamp": 1747897984623,
-  "version": "1.63.2",
+  "timeStamp": 1750004123071,
+  "version": "1.64.0",
   "userSettings": {
     "advancedUserEnabled": true,
-    "externalLists": "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
+    "collapseBlocked": false,
+    "externalLists": "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt\nhttps://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "firewallPaneMinimized": false,
     "importedLists": [
       "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
+      "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
       "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt",
       "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
       "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt"
     ],
-    "popupPanelSections": 31,
+    "popupPanelSections": 63,
     "userFiltersTrusted": true,
     "webrtcIPAddressHidden": true
   },
@@ -36,8 +38,10 @@
     "easylist-notifications",
     "easylist-annoyances",
     "ublock-annoyances",
+    "IDN-0",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
     "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
+    "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
     "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt"
   ],
