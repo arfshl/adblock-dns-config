@@ -17,9 +17,7 @@
 - Block Child Sexual Abuse Material: ON
 
 ### Privacy
-- Blocklists -> Add: 
-- NextDNS Ads & Trackers Blocklist (Default)
-- HaGeZi - Multi PRO
+- Blocklists -> Add: HaGeZi - Multi PRO
 - Block Disguised Third-Party Trackers: ON
 - Allow Affiliate & Tracking Links: ON
 
