@@ -1,20 +1,19 @@
 {
-  "timeStamp": 1750004123071,
+  "timeStamp": 1750917316963,
   "version": "1.64.0",
   "userSettings": {
     "advancedUserEnabled": true,
     "collapseBlocked": false,
-    "externalLists": "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt\nhttps://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
+    "externalLists": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
     "firewallPaneMinimized": false,
     "importedLists": [
-      "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
       "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt",
       "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
       "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt",
       "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
       "https://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt"
     ],
-    "popupPanelSections": 63,
+    "popupPanelSections": 31,
     "userFiltersTrusted": true,
     "webrtcIPAddressHidden": true
   },
@@ -40,7 +39,6 @@
     "ublock-annoyances",
     "IDN-0",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
-    "https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_extended.txt",
     "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt",
     "https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt"
@@ -53,5 +51,5 @@
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
-  "userFilters": ""
+  "userFilters": "! Jun 25, 2025 https://wolipop.detik.com\nwolipop.detik.com##div:nth-of-type(8)\nwolipop.detik.com##div:nth-of-type(23)\nwolipop.detik.com##div:nth-of-type(19)\nwolipop.detik.com##div:nth-of-type(6)\nwolipop.detik.com##div:nth-of-type(4)\nwolipop.detik.com##div.gap-6.content-start.px-0.grid > div > .mb-8.top-16.sticky\nwolipop.detik.com##.gap-6.content-stretch.px-0.grid > div > .mb-8.top-16.sticky"
 }
