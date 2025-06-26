@@ -1,7 +1,6 @@
 # AdGuard Private DNS Server Configuration
 
 #### Blocklists
-- AdGuard DNS filter (General)
 - HaGeZi's Pro Blocklist (General)
 - HaGeZi's Threat Intelligence Feeds (Security)
 - HaGeZi's The World's Most Abused TLDs (Security)
