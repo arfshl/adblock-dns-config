@@ -18,7 +18,7 @@
 
 ## AdGuard Home or AdGuard for Android DNS Filtering
 
-- [HaGeZi Pro Plus](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)
+- [HaGeZi Pro](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)
 
 - [HaGeZi Threat Intelligence Feeds](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt)
 
