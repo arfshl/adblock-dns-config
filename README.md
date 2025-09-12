@@ -81,7 +81,7 @@
 - Miscellaneous: Enable AdGuard URL Tracking Protection
 - Regions, Languages: Depends on your region and language sites (ABPindo for Indonesian Languages)
 
-## Recommended [Tampermonkey](https://www.tampermonkey.net/) Useerscript 
+## Recommended [Tampermonkey](https://www.tampermonkey.net/) Userscript 
 Removing more annoying elements from the websites
 
 [DisableAMP](https://userscripts.adtidy.org/release/disable-amp/1.0/disable-amp.user.js) - This is a very simple userscript that disables AMP pages on the Google search results page. Open Google search results on a mobile phone, click on the link marked as AMP. This link should be opened without AMP.
