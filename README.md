@@ -24,8 +24,6 @@
 
 - [Abused TLDs - for local phishing](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds.txt)
 
-- (Windows only) [WindowsSpyBlocker Update - For disabling windows update, but blocks access to microsoft store](https://github.com/crazy-max/WindowsSpyBlocker/raw/master/data/dnscrypt/update.txt)
-
 #### AdGuard Home Parental Control
 
 - You Can Block/Unblock Services at Blocked Services menu, and set schedule for pause blocking
@@ -60,15 +58,15 @@
 
 - Keep Default List, Enable Easylist Social, Easylist Annoyances / Fanboy Annoyances, uBlock Annoyances (uBlock Origin only)
 
-- Make sure ABPindo is enabled (For indonesian region)
+- Enable AdGuard/uBO – URL Tracking Protection filter
+
+- Make sure Region/Language-specific filter is enabled (such like ABPindo for indonesian region)
 
 - [HaGeZi Threat Intelligence Feeds (Unnecesary if you already use this on DNS-level)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt)
 
 - [Abused TLDs - for local phishing (Unnecesary if you already use this on DNS-level)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
 
-- [AdBlockID (for Indonesian region)](https://cdn.jsdelivr.net/gh/realodix/AdBlockID@master/dist/adblockid.adfl.txt)
-
-- [ABPindo Annoyance (remove annoying elements like pop-up and widgets, for Indonesian region)](https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_annoyance.txt)
+- [ABPindo Annoyance (remove annoying elements like pop-up and widgets, only for Indonesian region)](https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_annoyance.txt)
 
 - [🚪 Browse websites without logging in](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt)
 
