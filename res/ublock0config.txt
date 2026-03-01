@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1752066215316,
-  "version": "1.64.0",
+  "timeStamp": 1772370627091,
+  "version": "1.69.0",
   "userSettings": {
     "advancedUserEnabled": true,
     "externalLists": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo_annoyances.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/arfshl/filterlist/main/a.txt\nhttps://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/gambling.txt\nhttps://raw.githubusercontent.com/realodix/AdBlockID/main/dist/adblockid.adfl.txt",
@@ -26,6 +26,7 @@
     "easylist",
     "adguard-mobile",
     "easyprivacy",
+    "adguard-spyware-url",
     "urlhaus-1",
     "plowe-0",
     "fanboy-cookiemonster",
