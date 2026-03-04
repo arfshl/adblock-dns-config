@@ -62,10 +62,6 @@
 
 - Make sure Region/Language-specific filter is enabled (such like ABPindo for indonesian region)
 
-- [HaGeZi Threat Intelligence Feeds (Unnecesary if you already use this on DNS-level)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt)
-
-- [Abused TLDs - for local phishing (Unnecesary if you already use this on DNS-level)](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
-
 - [ABPindo Annoyance (remove annoying elements like pop-up and widgets, only for Indonesian region)](https://github.com/ABPindo/indonesianadblockrules/raw/master/subscriptions/abpindo_annoyance.txt)
 
 - [🚪 Browse websites without logging in](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/BrowseWebsitesWithoutLoggingIn.txt)
