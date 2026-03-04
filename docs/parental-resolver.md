@@ -2,7 +2,7 @@
 
 | Provider | DNS-Over-HTTPS/HTTP3 | DNS-Over-TLS/QUIC | IPv4 | Apple |
 | --- | --- | --- | --- | --- |
-| AdGuard DNS Family (Supports Ad-Blocking) | https://family.adguard-dns.com/dns-query | family.adguard-dns.com | 94.140.14.15, 94.140.15.16 | 
+| AdGuard DNS Family (Supports Ad-Blocking) | https://family.adguard-dns.com/dns-query | family.adguard-dns.com | 94.140.14.15, 94.140.15.16 | https://adguard-dns.io/en/public-dns.html
 | ControlD Family Friendly (Malware + Ads & Tracking + Adult Content + Drugs)| https://freedns.controld.com/family | family.freedns.controld.com | 76.76.2.4, 76.76.10.4 | https://api.controld.com/mobileconfig/family?type=free&exclude_common=1
 | ControlD Social (Malware + Ads & Tracking + Social Networks)| https://freedns.controld.com/p3 | p3.freedns.controld.com | 76.76.2.3, 76.76.10.3 | https://api.controld.com/mobileconfig/p3?type=free&exclude_common=1
 | Cloudflare DNS Family | https://family.cloudflare-dns.com/dns-query | family.cloudflare-dns.com | 1.1.1.3, 1.0.0.3 | |
