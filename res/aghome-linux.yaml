@@ -10,8 +10,8 @@ users:
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
-language: en
-theme: dark
+language: ""
+theme: auto
 dns:
   bind_hosts:
     - 127.0.0.1
@@ -23,18 +23,16 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-    - https://cloudflare-dns.com/dns-query
+    - https://freedns.controld.com/p1
   upstream_dns_file: ""
   bootstrap_dns:
     - 45.90.28.0:5353
     - 45.90.30.0:5353
     - 94.140.14.140:5353
     - 94.140.14.141:5353
-  fallback_dns:
-    - 45.90.28.0:5353
-    - 45.90.30.0:5353
-    - 94.140.14.140:5353
-    - 94.140.14.141:5353
+    - 9.9.9.9:9953
+    - 149.112.112.112:9953
+  fallback_dns: []
   upstream_mode: load_balance
   fastest_timeout: 1s
   allowed_clients: []
@@ -46,12 +44,15 @@ dns:
   trusted_proxies:
     - 127.0.0.0/8
     - ::1/128
+  cache_enabled: true
   cache_size: 4194304
   cache_ttl_min: 0
   cache_ttl_max: 0
   cache_optimistic: true
+  cache_optimistic_answer_ttl: 30s
+  cache_optimistic_max_age: 12h
   bogus_nxdomain: []
-  aaaa_disabled: true
+  aaaa_disabled: false
   enable_dnssec: true
   edns_client_subnet:
     custom_ip: ""
@@ -92,43 +93,36 @@ tls:
 querylog:
   dir_path: ""
   ignored: []
-  interval: 720h
+  interval: 2160h
   size_memory: 1000
   enabled: true
+  ignored_enabled: false
   file_enabled: true
 statistics:
   dir_path: ""
   ignored: []
   interval: 24h
   enabled: true
+  ignored_enabled: false
 filters:
-  - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-    name: AdGuard DNS filter
-    id: 1
-  - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt
-    name: HaGeZi's The World's Most Abused TLDs
-    id: 1716517976
-  - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
-    name: HaGeZi's Threat Intelligence Feeds
-    id: 1716517978
   - enabled: true
     url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt
     name: HaGeZi's Pro Blocklist
-    id: 1743666716
+    id: 1773192419
   - enabled: true
-    url: https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt
-    name: https://raw.githubusercontent.com/arfshl/filterlist/main/a.txt
-    id: 1744725402
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt
+    name: HaGeZi's The World's Most Abused TLDs
+    id: 1773192420
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_47.txt
-    name: HaGeZi's Gambling Blocklist
-    id: 1745233699
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt
+    name: HaGeZi's Threat Intelligence Feeds
+    id: 1773192421
+  - enabled: true
+    url: https://github.com/arfshl/filterlist/raw/main/personal-agh.txt
+    name: https://github.com/arfshl/filterlist/raw/main/personal-agh.txt
+    id: 1774182429
 whitelist_filters: []
-user_rules:
-  - ""
+user_rules: []
 dhcp:
   enabled: false
   interface_name: ""
@@ -155,20 +149,20 @@ filtering:
     ids: []
   protection_disabled_until: null
   safe_search:
-    enabled: true
+    enabled: false
     bing: true
     duckduckgo: true
     ecosia: true
     google: true
     pixabay: true
     yandex: true
-    youtube: false
+    youtube: true
   blocking_mode: default
   parental_block_host: family-block.dns.adguard.com
   safebrowsing_block_host: standard-block.dns.adguard.com
   rewrites: []
   safe_fs_patterns:
-    - /home/alif/Applications/AdGuardHome/data/userfilters/*
+    - /home/alif/Applications/AdGuardHome/userfilters/*
   safebrowsing_cache_size: 1048576
   safesearch_cache_size: 1048576
   parental_cache_size: 1048576
@@ -176,7 +170,8 @@ filtering:
   filters_update_interval: 24
   blocked_response_ttl: 10
   filtering_enabled: true
-  parental_enabled: true
+  rewrites_enabled: true
+  parental_enabled: false
   safebrowsing_enabled: true
   protection_enabled: true
 clients:
@@ -200,4 +195,4 @@ os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 29
+schema_version: 33
