@@ -9,11 +9,8 @@
 - [Android/iOS Secure DNS/Linux systemd-resolved](https://github.com/arfshl/adblock-dns-config/blob/main/docs/android-resolvers.md)
 - [Parental Control DNS Services](https://github.com/arfshl/adblock-dns-config/blob/main/docs/parental-resolver.md)
 - [NextDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/nextdns.md)
-- [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md)
-- [RethinkDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/rethinkdns.md)
-- [dnswarden Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dnswarden.md)
+- [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md
 - [ControlD Free Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/controld-free.md)
-- [AhaDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/ahadns.md)
 - [AdGuard Home/AdGuard for Android DNS Upstream](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dns-resolvers.md)
 
 ## AdGuard Home or AdGuard for Android DNS Filtering
