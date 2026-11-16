@@ -5,13 +5,11 @@
 - [AdGuard Home Parental Control](https://github.com/arfshl/adblock-dns-config/tree/main#parental-control)
 - [uBlock Origin | Brave Browser | AdGuard for Android Recommended Filter](https://github.com/arfshl/adblock-dns-config/tree/main#ublock-origin--brave-browser--adguard-for-android)
 - [uBlock Origin Lite](https://github.com/arfshl/adblock-dns-config/tree/main#ublock-origin-lite-chrome-edge-opera-vivaldi-and-other-chromium-based-browsers)
+- [Encrypted DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dns-resolvers.md)
 - [Recommended Tampermonkey Userscirpt](https://github.com/arfshl/adblock-dns-config/tree/main#recommended-tampermonkey-userscripts)
-- [Android/iOS Secure DNS/Linux systemd-resolved](https://github.com/arfshl/adblock-dns-config/blob/main/docs/android-resolvers.md)
-- [Parental Control DNS Services](https://github.com/arfshl/adblock-dns-config/blob/main/docs/parental-resolver.md)
 - [NextDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/nextdns.md)
 - [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md
 - [ControlD Free Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/controld-free.md)
-- [AdGuard Home/AdGuard for Android DNS Upstream](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dns-resolvers.md)
 
 ## AdGuard Home or AdGuard for Android DNS Filtering
 
