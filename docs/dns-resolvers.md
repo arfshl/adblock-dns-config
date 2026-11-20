@@ -1,3 +1,14 @@
+## Encrypted DNS Clients (System Wide)
+
+- Android
+  1. Built-in Private DNS or [RethinkDNS App](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+- Windows
+  1. Built-in Windows 11 or [YogaDNS](https://www.yogadns.com/) and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+- macOS and iOS
+  1. Built-in
+- Linux
+  1. [systemd-resolved](https://wiki.archlinux.org/title/Systemd-resolved) or [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+
 ## Recommended Encrypted DNS Upstream
 | Provider | DoH | DoT | Alternative UDP Port (fallback/bootstrap) | Apple |
 | --- | --- | --- | --- | --- |
@@ -22,3 +33,4 @@
 | Cloudflare DNS Family | https://family.cloudflare-dns.com/dns-query | family.cloudflare-dns.com | 1.1.1.3, 1.0.0.3 | |
 | ControlD Family Friendly (Malware + Ads & Tracking + Adult Content + Drugs) | https://freedns.controld.com/family | family.freedns.controld.com | 76.76.2.4, 76.76.10.4 | https://api.controld.com/mobileconfig/family?type=free&exclude_common=1 |
 | ControlD Social (Malware + Ads & Tracking + Social Networks) | https://freedns.controld.com/p3 | p3.freedns.controld.com | 76.76.2.3, 76.76.10.3 | https://api.controld.com/mobileconfig/p3?type=free&exclude_common=1 |
+
