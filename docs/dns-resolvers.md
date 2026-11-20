@@ -12,7 +12,7 @@
 ## Recommended Encrypted DNS Upstream
 | Provider | DoH | DoT | Alternative UDP Port (fallback/bootstrap) | Apple |
 | --- | --- | --- | --- | --- |
-| AdGuard DNS | https://adguard-dns.com/dns-query | dns.adguard-dns.com | - | https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html |
+| AdGuard DNS | https://dns.adguard-dns.com/dns-query | dns.adguard-dns.com | - | https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html |
 | AdGuard DNS Unfiltered | https://unfiltered.adguard-dns.com/dns-query | unfiltered.adguard-dns.com | 94.140.14.140:5353, 94.140.14.141:5353 | - |
 | Cloudflare DNS | https://cloudflare-dns.com/dns-query | cloudflare-dns.com | - | - |
 | Cloudflare DNS - Security | https://security.cloudflare-dns.com/dns-query | security.cloudflare-dns.com | - | - |
