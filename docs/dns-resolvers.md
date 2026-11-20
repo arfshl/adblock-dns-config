@@ -1,7 +1,7 @@
 ## Encrypted DNS Clients (System Wide)
 
 - Android
-  1. Built-in Private DNS or [RethinkDNS App](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
+  1. Built-in Private DNS or [RethinkDNS App](https://play.google.com/store/apps/details?id=com.celzero.bravedns) and [intra](https://play.google.com/store/apps/details?id=app.intra&hl=en_US)
 - Windows
   1. Built-in Windows 11 or [YogaDNS](https://www.yogadns.com/) and [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
 - macOS and iOS
