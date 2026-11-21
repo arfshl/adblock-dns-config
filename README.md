@@ -8,8 +8,9 @@
 - [Encrypted DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/dns-resolvers.md)
 - [Recommended Tampermonkey Userscirpt](https://github.com/arfshl/adblock-dns-config/tree/main#recommended-tampermonkey-userscripts)
 - [NextDNS Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/nextdns.md)
-- [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md
+- [AdGuard Private DNS](https://github.com/arfshl/adblock-dns-config/blob/main/docs/adguarddns.md)
 - [ControlD Free Configuration](https://github.com/arfshl/adblock-dns-config/blob/main/docs/controld-free.md)
+- [Bypass Censorship (indonesian)](https://github.com/arfshl/bypassdpi)
 
 ## AdGuard Home or AdGuard for Android DNS Filtering
 
